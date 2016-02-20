@@ -1,0 +1,32 @@
+{
+  "name": "mark-up",
+  "version": "1.0.0",
+  "description": "Mark-Up",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafej/mark-up.git"
+  },
+  "keywords": [
+    "markup",
+    "realtime",
+    "sharejs"
+  ],
+  "author": "Rafe j. Skidmore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafej/mark-up/issues"
+  },
+  "dependencies": {
+    "express": "^4.12.4",
+    "ejs": "^2.3.1",
+    "redis": "^0.10.3",
+    "share": "0.6.3"
+  },
+  "homepage": "https://github.com/rafej/mark-up#readme",
+  "devDependencies": {}
+}
